@@ -1,0 +1,21 @@
+{
+  "name": "asmaul-husna",
+  "version": "1.0.0",
+  "description": "Asmaul Husna Mobile App",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p dist && echo '<html><body>Build Success</body></html>' > dist/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/cli": "^5.0.0",
+    "@capacitor/core": "^5.0.0",
+    "@capacitor/assets": "^3.0.0",
+    "@capacitor/filesystem": "^5.0.0",
+    "@capacitor/share": "^5.0.0"
+  },
+  "devDependencies": {},
+  "author": "Obaid App",
+  "license": "MIT"
+}
